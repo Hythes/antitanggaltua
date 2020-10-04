@@ -8,4 +8,4 @@ uses: yanzay/notify-telegram@v0.1.0
      # Telegram Bot token
      token: 1326185050:AAGEsxxhM9j3DlDV1P5IVh9QrL2l6IduaDk
      # Job status
-     status: building
+     status: ${{ job.status }}
